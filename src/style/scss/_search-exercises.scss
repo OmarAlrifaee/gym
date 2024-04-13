@@ -1,0 +1,13 @@
+.search-div {
+  input {
+    caret-color: #dc3545;
+    font-weight: bold;
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      text-transform: capitalize;
+      font-weight: bold;
+    }
+  }
+}

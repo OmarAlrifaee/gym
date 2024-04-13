@@ -1,0 +1,20 @@
+// import globle rules
+@use "./scss/global_Rules";
+// import active class styiling
+@use "./scss/active";
+// hero banner
+@use "./scss/hero-banner";
+// search exercises
+@use "./scss/search-exercises";
+// body parts
+@use "./scss/body-parts";
+// exercises card
+@use "./scss/exercises-card";
+// popup
+@use "./scss/wronge-search-popup";
+// exercise video
+@use "./scss/exercise-video";
+// scroll bar
+@use "./scss/scroll-bar";
+// footer
+@use "./scss/footer.scss";

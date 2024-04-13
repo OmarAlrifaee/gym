@@ -1,0 +1,12 @@
+.exercise-video {
+  transition: 0.3s;
+  max-width: 360px;
+  border-radius: 10px;
+  overflow: hidden;
+  &:hover {
+    transform: scale(1.1);
+  }
+  img {
+    max-height: 200px;
+  }
+}

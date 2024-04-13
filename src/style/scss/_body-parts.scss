@@ -1,0 +1,17 @@
+.menu {
+  overflow-x: auto;
+  .body-part-div {
+    cursor: pointer;
+    transition: 0.3s;
+    &.active {
+      border-top: 4px solid #cd0606;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
