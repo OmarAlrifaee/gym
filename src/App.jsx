@@ -1,12 +1,12 @@
 import "./style/Main.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
 import ExerciseDetail from "./pages/ExerciseDetail";
 import NotFound from "./pages/NotFound";
 
 // the router
-const Router = createBrowserRouter([
+const Router = createHashRouter([
   { path: "/", element: <Home /> },
   { path: "exercise/:id", element: <ExerciseDetail /> },
   { path: "*", element: <NotFound /> },
